@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "frankenstein-workflows",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+
+  "workflows": [
+    {
+      "name": "frank-workflow",
+      "binding": "FRANK_WORKFLOW",
+      "class_name": "FrankensteinWorkflow"
+    }
+  ]
+}
